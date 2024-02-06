@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Form_dalto\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form_dalto\Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form_dalto\Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form_dalto\Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form_dalto\Form5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form_dalto\Form6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form_dalto\Form7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="main_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="modify.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
