@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.DataFormats;
 
 namespace Logiciel.Form_dalto
 {
@@ -41,6 +42,10 @@ namespace Logiciel.Form_dalto
             isAnswerCorrect = true;
             Form1.answersList.Add(isAnswerCorrect);
             this.Hide();
+            if (form6 == null || form6.IsDisposed)
+            {
+                form6 = new Form6();
+            }
             form6.Show();
 
         }
@@ -50,6 +55,10 @@ namespace Logiciel.Form_dalto
             isAnswerCorrect = false;
             Form1.answersList.Add(isAnswerCorrect);
             this.Hide();
+            if (form6 == null || form6.IsDisposed)
+            {
+                form6 = new Form6();
+            }
             form6.Show();
 
         }
@@ -59,6 +68,10 @@ namespace Logiciel.Form_dalto
             isAnswerCorrect = false;
             Form1.answersList.Add(isAnswerCorrect);
             this.Hide();
+            if (form6 == null || form6.IsDisposed)
+            {
+                form6 = new Form6();
+            }
             form6.Show();
 
         }

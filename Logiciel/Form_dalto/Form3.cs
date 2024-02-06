@@ -36,6 +36,10 @@ namespace Logiciel.Form_dalto
             isAnswerCorrect = true;
             Form1.answersList.Add(isAnswerCorrect);
             this.Hide();
+            if (form4 == null || form4.IsDisposed)
+            {
+                form4 = new Form4();
+            }
             form4.Show();
 
         }
@@ -45,6 +49,10 @@ namespace Logiciel.Form_dalto
             isAnswerCorrect = false;
             Form1.answersList.Add(isAnswerCorrect);
             this.Hide();
+            if (form4 == null || form4.IsDisposed)
+            {
+                form4 = new Form4();
+            }
             form4.Show();
         }
 
@@ -53,10 +61,19 @@ namespace Logiciel.Form_dalto
             isAnswerCorrect = false;
             Form1.answersList.Add(isAnswerCorrect);
             this.Hide();
+            if (form4 == null || form4.IsDisposed)
+            {
+                form4 = new Form4();
+            }
             form4.Show();
         }
 
         private void progressBar1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }

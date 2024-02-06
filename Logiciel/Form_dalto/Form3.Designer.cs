@@ -40,10 +40,11 @@
             // 
             // progressBar1
             // 
-            progressBar1.Location = new Point(132, 528);
+            progressBar1.Location = new Point(189, 880);
+            progressBar1.Margin = new Padding(4, 5, 4, 5);
             progressBar1.Maximum = 7;
             progressBar1.Name = "progressBar1";
-            progressBar1.Size = new Size(720, 52);
+            progressBar1.Size = new Size(1029, 87);
             progressBar1.Step = 1;
             progressBar1.TabIndex = 11;
             progressBar1.Value = 3;
@@ -51,9 +52,10 @@
             // 
             // button3
             // 
-            button3.Location = new Point(745, 403);
+            button3.Location = new Point(1064, 672);
+            button3.Margin = new Padding(4, 5, 4, 5);
             button3.Name = "button3";
-            button3.Size = new Size(107, 37);
+            button3.Size = new Size(153, 62);
             button3.TabIndex = 10;
             button3.Text = "39";
             button3.UseVisualStyleBackColor = true;
@@ -61,9 +63,10 @@
             // 
             // button2
             // 
-            button2.Location = new Point(441, 403);
+            button2.Location = new Point(630, 672);
+            button2.Margin = new Padding(4, 5, 4, 5);
             button2.Name = "button2";
-            button2.Size = new Size(107, 37);
+            button2.Size = new Size(153, 62);
             button2.TabIndex = 9;
             button2.Text = "36";
             button2.UseVisualStyleBackColor = true;
@@ -71,9 +74,10 @@
             // 
             // button1
             // 
-            button1.Location = new Point(132, 403);
+            button1.Location = new Point(189, 672);
+            button1.Margin = new Padding(4, 5, 4, 5);
             button1.Name = "button1";
-            button1.Size = new Size(107, 37);
+            button1.Size = new Size(153, 62);
             button1.TabIndex = 8;
             button1.Text = "4";
             button1.UseVisualStyleBackColor = true;
@@ -82,9 +86,10 @@
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(366, 105);
+            pictureBox1.Location = new Point(523, 175);
+            pictureBox1.Margin = new Padding(4, 5, 4, 5);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(250, 250);
+            pictureBox1.Size = new Size(357, 417);
             pictureBox1.TabIndex = 7;
             pictureBox1.TabStop = false;
             pictureBox1.Click += pictureBox1_Click;
@@ -93,24 +98,27 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 25F);
-            label1.Location = new Point(296, 31);
+            label1.Location = new Point(423, 52);
+            label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
-            label1.Size = new Size(383, 46);
+            label1.Size = new Size(561, 67);
             label1.TabIndex = 6;
             label1.Text = "Test Type de Daltonisme";
             label1.TextAlign = ContentAlignment.TopCenter;
+            label1.Click += label1_Click;
             // 
             // Form3
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(984, 611);
+            ClientSize = new Size(1406, 1018);
             Controls.Add(progressBar1);
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(pictureBox1);
             Controls.Add(label1);
+            Margin = new Padding(4, 5, 4, 5);
             Name = "Form3";
             Text = "Form3";
             Load += Form3_Load;

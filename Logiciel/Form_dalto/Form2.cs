@@ -42,6 +42,10 @@ namespace Logiciel.Form_dalto
             isAnswerCorrect = false;
             Form1.answersList.Add(isAnswerCorrect);
             this.Hide();
+            if (form3 == null || form3.IsDisposed)
+            {
+                form3 = new Form3();
+            }
             form3.Show();
         }
 
@@ -51,6 +55,10 @@ namespace Logiciel.Form_dalto
             isAnswerCorrect = false;
             Form1.answersList.Add(isAnswerCorrect);
             this.Hide();
+            if (form3 == null || form3.IsDisposed)
+            {
+                form3 = new Form3();
+            }
             form3.Show();
         }
 
@@ -59,6 +67,10 @@ namespace Logiciel.Form_dalto
             isAnswerCorrect = true;
             Form1.answersList.Add(isAnswerCorrect);
             this.Hide();
+            if (form3 == null || form3.IsDisposed)
+            {
+                form3 = new Form3();
+            }
             form3.Show();
         }
     }

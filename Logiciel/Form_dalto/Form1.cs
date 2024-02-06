@@ -45,6 +45,10 @@ namespace Logiciel
             // Store the answer for Form1
             answersList.Add(true);
             this.Hide();
+            if (form2 == null || form2.IsDisposed)
+            {
+                form2 = new Form2();
+            }
             form2.Show();
 
         }
@@ -54,6 +58,10 @@ namespace Logiciel
             // Store the answer for Form1
             answersList.Add(false);
             this.Hide();
+            if (form2 == null || form2.IsDisposed)
+            {
+                form2 = new Form2();
+            }
             form2.Show();
 
         }
@@ -63,6 +71,10 @@ namespace Logiciel
 
             answersList.Add(false);
             this.Hide();
+            if (form2 == null || form2.IsDisposed)
+            {
+                form2 = new Form2();
+            }
             form2.Show();
         }
 

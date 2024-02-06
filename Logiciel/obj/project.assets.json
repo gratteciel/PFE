@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mitue\\Documents\\Ecole\\ECE\\ING5\\Cours\\PFE\\form_dalto_c#\\Logiciel\\Logiciel.csproj",
+      "projectUniqueName": "C:\\Users\\mitue\\OneDrive\\Documents\\ECE\\ING5\\Cours\\PFE\\Logiciel\\Logiciel.csproj",
       "projectName": "Logiciel",
-      "projectPath": "C:\\Users\\mitue\\Documents\\Ecole\\ECE\\ING5\\Cours\\PFE\\form_dalto_c#\\Logiciel\\Logiciel.csproj",
+      "projectPath": "C:\\Users\\mitue\\OneDrive\\Documents\\ECE\\ING5\\Cours\\PFE\\Logiciel\\Logiciel.csproj",
       "packagesPath": "C:\\Users\\mitue\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mitue\\Documents\\Ecole\\ECE\\ING5\\Cours\\PFE\\form_dalto_c#\\Logiciel\\obj\\",
+      "outputPath": "C:\\Users\\mitue\\OneDrive\\Documents\\ECE\\ING5\\Cours\\PFE\\Logiciel\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mitue\\AppData\\Roaming\\NuGet\\NuGet.Config",
