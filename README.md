@@ -1,6 +1,6 @@
 # Projet de Fin d'Études (PFE)
 
-Ce référentiel contient le code source et la documentation associée au Projet de Fin d'Études (PFE) réalisé par [Nom de l'étudiant(e)] dans le cadre de son cursus universitaire.
+Ce référentiel contient le code source et la documentation associée au Projet de Fin d'Études (PFE) réalisé par Nicolas CHAAR, Oscar DE SEVELINGES, Emilian MITU, Juliette Daniel, Anis SAYOUD et Boubker HENNOUCHE dans le cadre de son cursus universitaire.
 
 ## Description du Projet
 
@@ -10,7 +10,7 @@ Le Projet de Fin d'Études (PFE) vise à développer un projeten équipe. Il a �
 
 Le référentiel est organisé comme suit :
 
-- `documentation/`: Ce répertoire contient la documentation associée au projet, y compris les spécifications, les manuels d'utilisation et tout autre document pertinent.
+- `documentation/`: Ce répertoire contient la documentation associée au projet, y compris les spécifications, les manuels d'utilisation et tout autre document pertinent. Vous pourrez trouvez comment nous avons concu le projet et comment la solution est agencée.
 - `Logiciel/`: Ce répertoire contient l'ensemble du code source du projet, organisé en fonction de sa structure.
 - `LICENSE`: Ce fichier contient les informations sur la licence sous laquelle le code source est distribué.
 - `README.md` (ce fichier) : Fournit des informations générales sur le projet et son utilisation.
